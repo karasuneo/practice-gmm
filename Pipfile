@@ -9,6 +9,7 @@ matplotlib = "*"
 scikit-learn = "*"
 seaborn = "*"
 opencv-python = "*"
+japanize-matplotlib = "*"
 
 [dev-packages]
 ipykernel = "*"
