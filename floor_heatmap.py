@@ -36,7 +36,7 @@ RSSI_min = -90  # dBm
 RSSI = np.round(RSSI_max + (Z / Z_max) * (RSSI_min - RSSI_max), 2)
 
 # RSSI値をCSVファイルに書き込む
-np.savetxt('RSSI_values.csv', RSSI, delimiter=',', fmt='%.2f')
+np.savetxt("RSSI_values.csv", RSSI, delimiter=",", fmt="%.2f")
 
 # メッセージを表示
 print("RSSI値がファイル 'RSSI_values.csv' に保存されました。")
